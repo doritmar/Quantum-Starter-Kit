@@ -1,0 +1,6 @@
+google.search = xpath=//*[@id="lst-ib"]
+button.gsearch = xpath=//*[@class="sbico"]
+
+button.pmenu = xpath=//*[text()="Menu"]
+perfecto.search = xpath=//*[@class="textbox"]
+button.psearch = xpath=//*[@class="formSubmit"]
