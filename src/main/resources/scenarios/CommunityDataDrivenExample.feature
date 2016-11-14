@@ -1,21 +1,14 @@
-@tagdd
-Feature: community login data driven
+@sampletagdd
+Feature: community serach sample data driven
   DATAFILE=src/test/resources/data/testData.csv
   #or
   #DATAFILE=src/test/resources/data/testData.xls
 
-  @tagdd
-  Scenario: login to community data drive
+  @sampletagdd
+  Scenario: search community data driven
     Given I open browser to webpage "https://community.perfectomobile.com/"
-    When I go to menu page
-    And I go to login page
-    Then "login.user" must exist
-    When I fill user "<username>" and password "<password>"
-    And I click on "checkbox.login"
-    And I click on "button.submit"
-    Then I wait for "5" seconds
-    And I click on "button.menu"
-    And I take a screenshot
-    When I click on "spinner.options"
-    Then I click on "button.logout"
+    And I wait for "5" seconds
+    When I click on "button.search"
+    And I enter "<searchterm>" to "community.search"
+    Then I must see text "Popular"
     And I take a screenshot
