@@ -85,7 +85,7 @@ Modify **only** the test suites not related to the Google sample we started with
 
 ## Viewing test execution results in Perfecto Reporting
 
-All the previous executions were recorded, and may be viewed in Perfecto execution center, Reporting.
+All the previous executions were recorded, and may be viewed in Perfecto Reporting execution center.
 
 Let's proceed to naming your tests, so you can easily detect them in Perfecto Reporting and drill down to examine them in more detail.
 
