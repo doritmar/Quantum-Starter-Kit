@@ -1,0 +1,6 @@
+button.menu = xpath=//*[@class="icon ic-menu"]
+button.search = xpath=//*[@class="icon ic-search"]
+community.search = xpath=//*[@class="header-search-input"]
+
+link.quickLinks = xpath=//*[text()="Perfecto Quick Links"]
+title.quickLinks = xpath=//*[contains(text(),"Perfecto Quick Links")]
